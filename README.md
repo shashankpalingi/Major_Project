@@ -94,31 +94,31 @@ Get a free key at <https://console.groq.com>.
 ### List available scenarios
 
 ```bash
-python -m app.main list
+c
 ```
 
 ### Phase 1 — original three tests (no failure injection)
 
 ```bash
-python -m app.main
-python -m app.main phase1
+python3 -m app.main
+python3 -m app.main phase1
 ```
 
 ### Phase 2 — individual scenarios
 
 ```bash
-python -m app.main success
-python -m app.main recovery
-python -m app.main repeated_failure
-python -m app.main empty_result
-python -m app.main impossible
-python -m app.main loop
+python3 -m app.main success
+python3 -m app.main recovery
+python3 -m app.main repeated_failure
+python3 -m app.main empty_result
+python3 -m app.main impossible
+python3 -m app.main loop
 ```
 
 ### Phase 2 — all six scenarios in sequence
 
 ```bash
-python -m app.main all
+python3 -m app.main all
 ```
 
 ### Override the LLM model (optional)
